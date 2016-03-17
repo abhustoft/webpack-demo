@@ -45,6 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var ShowGuestNames = __webpack_require__(1);
+	__webpack_require__(7);
 
 	ShowGuestNames();
 
@@ -85,8 +86,19 @@
 	        "name": "Bob Miller",
 	        "phone": "777-888-9999",
 	        "email": "bobmiller@gmail.com"
+	    },
+	    {
+	        "name": "Bob kddddkiller",
+	        "phone": "777-888-9999",
+	        "email": "bobmiller@gmail.com"
+	    },
+	    {
+	        "name": "Bob kddddkiller",
+	        "phone": "777-888-9999",
+	        "email": "bobmiller@gmail.com"
 	    }
 	];
+
 
 /***/ },
 /* 3 */
@@ -123,7 +135,7 @@
 
 
 	// module
-	exports.push([module.id, "li {\n    color: red;\n}", ""]);
+	exports.push([module.id, "li {\n    color: red;\n}\n", ""]);
 
 	// exports
 
@@ -437,6 +449,21 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	var checkName = function checkName(firstName, lastName) {
+	    if (firstName !== 'nader' || lastName !== 'dabit') {
+	        console.log('You are not Nader Dabit');
+	    } else {
+	        console.log('You are Nader Dabit');
+	    }
+	};
+	checkName('nader', 'jackson');
 
 /***/ }
 /******/ ]);
