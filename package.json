@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "buildprod": "webpack -p",
     "serve": "webpack-dev-server"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
     "jshint": "^2.9.1",
     "jshint-loader": "^0.8.3",
     "node-libs-browser": "^1.0.0",
+    "strip-loader": "^0.1.2",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
